@@ -1,0 +1,135 @@
+{
+  "common": {
+    "nav": {
+      "home": "首页",
+      "categories": "分类",
+      "electronics": "电子产品",
+      "clothing": "服装鞋包",
+      "home": "家居用品",
+      "beauty": "美妆护肤",
+      "sports": "运动户外",
+      "food": "食品饮料",
+      "account": "我的账户",
+      "orders": "我的订单",
+      "logout": "退出登录",
+      "login": "登录",
+      "register": "注册",
+      "cart": "购物车"
+    },
+    "search": "搜索商品...",
+    "add_to_cart": "加入购物车",
+    "buy_now": "立即购买",
+    "checkout": "结算",
+    "continue_shopping": "继续购物",
+    "submit": "提交",
+    "cancel": "取消"
+  },
+  "home": {
+    "hero": {
+      "title": "全球好物，尽在 Global Commerce",
+      "description": "一站式跨境电商购物平台，提供全类目商品和全球配送服务",
+      "shop_now": "立即购物"
+    },
+    "categories": "热门分类",
+    "featured": "推荐商品",
+    "view_all": "查看全部",
+    "services": {
+      "global_shipping": "全球配送",
+      "secure_payment": "安全支付",
+      "quality_guarantee": "品质保证",
+      "global_shipping_desc": "覆盖全球200+国家和地区",
+      "secure_payment_desc": "多种支付方式，保障交易安全",
+      "quality_guarantee_desc": "正品保障，7天无理由退换"
+    }
+  },
+  "category": {
+    "title": "商品分类",
+    "all_products": "全部商品",
+    "no_products": "该分类暂无商品"
+  },
+  "product": {
+    "description": "商品描述",
+    "features": "商品特性",
+    "quantity": "数量",
+    "stock": "库存",
+    "shipping": "配送",
+    "return_policy": "退换",
+    "sku": "SKU"
+  },
+  "cart": {
+    "title": "购物车",
+    "empty": "购物车为空",
+    "go_shopping": "去购物",
+    "order_summary": "订单摘要",
+    "subtotal": "商品小计",
+    "shipping": "运费",
+    "total": "总计"
+  },
+  "auth": {
+    "login": {
+      "title": "登录",
+      "email": "邮箱",
+      "password": "密码",
+      "submit": "登录",
+      "loading": "登录中...",
+      "no_account": "还没有账户？",
+      "register": "立即注册"
+    },
+    "register": {
+      "title": "注册",
+      "name": "姓名",
+      "email": "邮箱",
+      "password": "密码",
+      "submit": "注册",
+      "loading": "注册中...",
+      "has_account": "已有账户？",
+      "login": "立即登录"
+    }
+  },
+  "account": {
+    "title": "我的账户",
+    "personal_info": "个人信息",
+    "account_settings": "账户设置",
+    "change_password": "修改密码",
+    "address_management": "地址管理",
+    "view_orders": "查看订单"
+  },
+  "orders": {
+    "title": "我的订单",
+    "no_orders": "您还没有订单",
+    "order_id": "订单号",
+    "order_date": "下单日期",
+    "total": "总计",
+    "status": "状态",
+    "items": "件商品",
+    "view_details": "查看详情",
+    "status_completed": "已完成",
+    "status_shipped": "已发货"
+  },
+  "checkout": {
+    "title": "结账",
+    "order_info": "订单信息",
+    "payment_method": "支付方式",
+    "processing": "处理支付...",
+    "pay": "支付",
+    "success": {
+      "title": "支付成功！",
+      "message": "您的订单已成功支付，感谢您的购买。",
+      "order_id": "订单号",
+      "payment_id": "支付ID",
+      "back_home": "返回首页",
+      "view_order": "查看订单"
+    }
+  },
+  "footer": {
+    "company": "Global Commerce",
+    "company_desc": "一站式跨境电商购物平台，提供全类目商品和全球配送服务。",
+    "quick_links": "快速链接",
+    "categories": "商品分类",
+    "contact": "联系我们",
+    "email": "邮箱",
+    "phone": "电话",
+    "address": "地址",
+    "copyright": "© 2024 Global Commerce. 保留所有权利。"
+  }
+}

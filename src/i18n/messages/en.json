@@ -1,0 +1,135 @@
+{
+  "common": {
+    "nav": {
+      "home": "Home",
+      "categories": "Categories",
+      "electronics": "Electronics",
+      "clothing": "Clothing",
+      "home": "Home Goods",
+      "beauty": "Beauty",
+      "sports": "Sports",
+      "food": "Food & Beverages",
+      "account": "My Account",
+      "orders": "My Orders",
+      "logout": "Logout",
+      "login": "Login",
+      "register": "Register",
+      "cart": "Cart"
+    },
+    "search": "Search products...",
+    "add_to_cart": "Add to Cart",
+    "buy_now": "Buy Now",
+    "checkout": "Checkout",
+    "continue_shopping": "Continue Shopping",
+    "submit": "Submit",
+    "cancel": "Cancel"
+  },
+  "home": {
+    "hero": {
+      "title": "Global Goods at Global Commerce",
+      "description": "One-stop cross-border e-commerce shopping platform with full-category products and global delivery services",
+      "shop_now": "Shop Now"
+    },
+    "categories": "Popular Categories",
+    "featured": "Featured Products",
+    "view_all": "View All",
+    "services": {
+      "global_shipping": "Global Shipping",
+      "secure_payment": "Secure Payment",
+      "quality_guarantee": "Quality Guarantee",
+      "global_shipping_desc": "Covering 200+ countries and regions worldwide",
+      "secure_payment_desc": "Multiple payment methods, ensuring transaction security",
+      "quality_guarantee_desc": "Genuine product guarantee, 7-day no-reason return"
+    }
+  },
+  "category": {
+    "title": "Product Categories",
+    "all_products": "All Products",
+    "no_products": "No products in this category"
+  },
+  "product": {
+    "description": "Product Description",
+    "features": "Product Features",
+    "quantity": "Quantity",
+    "stock": "Stock",
+    "shipping": "Shipping",
+    "return_policy": "Return Policy",
+    "sku": "SKU"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "go_shopping": "Go Shopping",
+    "order_summary": "Order Summary",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "total": "Total"
+  },
+  "auth": {
+    "login": {
+      "title": "Login",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Login",
+      "loading": "Logging in...",
+      "no_account": "Don't have an account?",
+      "register": "Register Now"
+    },
+    "register": {
+      "title": "Register",
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Register",
+      "loading": "Registering...",
+      "has_account": "Already have an account?",
+      "login": "Login Now"
+    }
+  },
+  "account": {
+    "title": "My Account",
+    "personal_info": "Personal Information",
+    "account_settings": "Account Settings",
+    "change_password": "Change Password",
+    "address_management": "Address Management",
+    "view_orders": "View Orders"
+  },
+  "orders": {
+    "title": "My Orders",
+    "no_orders": "You have no orders yet",
+    "order_id": "Order ID",
+    "order_date": "Order Date",
+    "total": "Total",
+    "status": "Status",
+    "items": "items",
+    "view_details": "View Details",
+    "status_completed": "Completed",
+    "status_shipped": "Shipped"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "order_info": "Order Information",
+    "payment_method": "Payment Method",
+    "processing": "Processing payment...",
+    "pay": "Pay",
+    "success": {
+      "title": "Payment Successful!",
+      "message": "Your order has been successfully paid. Thank you for your purchase.",
+      "order_id": "Order ID",
+      "payment_id": "Payment ID",
+      "back_home": "Back to Home",
+      "view_order": "View Order"
+    }
+  },
+  "footer": {
+    "company": "Global Commerce",
+    "company_desc": "One-stop cross-border e-commerce shopping platform with full-category products and global delivery services.",
+    "quick_links": "Quick Links",
+    "categories": "Categories",
+    "contact": "Contact Us",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "copyright": "© 2024 Global Commerce. All rights reserved."
+  }
+}
