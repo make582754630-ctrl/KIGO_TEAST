@@ -1,10 +1,6 @@
-import { useRouter, useSearchParams } from 'next/navigation'
-import { Elements } from '@stripe/react-stripe-js'
-import { loadStripe } from '@stripe/stripe-js'
-import PaymentForm from '@/components/PaymentForm'
+'use client'
 
-// 加载Stripe
-const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY || 'pk_test_your_key')
+import { useRouter, useSearchParams } from 'next/navigation'
 
 const CheckoutPage = () => {
   const router = useRouter()
@@ -12,13 +8,9 @@ const CheckoutPage = () => {
   const amount = searchParams.get('amount') || '0'
   const orderId = searchParams.get('orderId') || ''
 
-  const handlePaymentSuccess = (paymentIntent: any) => {
-    // 支付成功，跳转到成功页面
-    router.push(`/checkout/success?orderId=${orderId}&paymentId=${paymentIntent.id}`)
-  }
-
-  const handlePaymentError = (error: string) => {
-    console.error('支付失败:', error)
+  const handlePayment = () => {
+    // 模拟支付成功
+    router.push(`/checkout/success?orderId=${orderId}&paymentId=test_payment_id`)
   }
 
   return (
@@ -45,15 +37,26 @@ const CheckoutPage = () => {
 
           <div className="bg-white rounded-lg shadow-md p-6">
             <h2 className="text-xl font-semibold mb-4">支付方式</h2>
-            {stripePromise && (
-              <Elements stripe={stripePromise}>
-                <PaymentForm
-                  amount={parseFloat(amount)}
-                  onSuccess={handlePaymentSuccess}
-                  onError={handlePaymentError}
-                />
-              </Elements>
-            )}
+            <div className="space-y-4">
+              <div className="border rounded-md p-4">
+                <div className="flex items-center space-x-2">
+                  <input type="radio" id="credit-card" name="payment-method" defaultChecked />
+                  <label htmlFor="credit-card">信用卡</label>
+                </div>
+              </div>
+              <div className="border rounded-md p-4">
+                <div className="flex items-center space-x-2">
+                  <input type="radio" id="paypal" name="payment-method" />
+                  <label htmlFor="paypal">PayPal</label>
+                </div>
+              </div>
+              <button
+                onClick={handlePayment}
+                className="btn btn-primary w-full"
+              >
+                支付 ¥{amount}
+              </button>
+            </div>
           </div>
         </div>
       </div>
